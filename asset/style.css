@@ -1,0 +1,537 @@
+*{
+    margin: 0; 
+    padding: 0;
+    border: 0;
+}
+
+h2{
+    color: #374151;
+}
+
+a{
+    color: #6B7280;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+i{
+    color: #6B7280;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    width: 1440px;
+}
+
+.container{
+    margin: 0 72px;
+}
+
+.highlights_shoes{
+    background-image: url("/asset/img/Rectangle\ 47.png");
+}
+
+.highlights_collections{
+    background-image: url("/asset/img/Rectangle\ 51.png");
+}
+
+.highlights_new-arrivals{
+    background-image: url("/asset/img/Rectangle\ 57.png");
+}
+
+.highlights_items{
+    background-image: url("/asset/img/Rectangle\ 56.png");
+}
+
+.top-bar{
+    width: 1440px;
+    height: 86px;
+}
+
+.row{
+    display: flex;
+    padding: 24px 0 32px 0;
+}
+
+.col{
+    flex-grow: 1;
+}
+
+.col .top-bar_logo{
+    width: 170px;
+    height: 30px;
+}
+
+.col .top-bar_search{
+    width: 280px;
+    height: 24px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.top-bar_menu{
+    width: 386px;
+    float: right;
+    
+}
+
+.top-bar_menu ul{
+    
+
+}
+
+.top-bar_menu ul li{
+    display: inline;
+    margin-left: 40px;
+    
+}
+
+.main-menu{
+    margin: 20px 0;
+}
+
+.menu{
+    margin-left: 72px;
+}
+
+.menu ul{
+    
+}
+
+.menu ul  li{
+    display: inline;
+    margin-right: 36px;
+    padding: 20px 0;
+}
+
+.menu ul  li span{
+    padding: 4px;
+    color: white;
+    background-color: #EB5757;
+}
+
+.hero{
+    width: 100%;
+    height: 645px;
+}
+
+.container-fluid{
+    margin: 0;
+    display: inline;
+}
+.content{
+    width: 930px;
+    height: 100%;
+    background-color: #1C2333;
+    float: left;
+    position: relative;
+}
+
+.hero_new-arrivals{
+    width: 556px;
+    height: 338px;
+    background-color: #1F2937;
+    position: absolute;
+    top: 130px;
+    left: 96px;
+}
+
+.hero_new-arrivals h1{
+    padding: 40px;
+    padding-bottom: 24px;
+    color: #FAFAFA;
+    font-size: 56px;
+}
+
+.hero_new-arrivals h1 span{
+    color: #F7C59F;
+}
+
+.hero_new-arrivals p{
+    padding-left: 40px;
+    color: #F3F4F6;
+}
+
+.hero_new-arrivals button{
+    padding: 12px 16px;
+    color: #FAFAFA;
+    background-color: #1F2937;
+    text-transform: uppercase;
+    border: 1px solid #FAFAFA;
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+}
+
+.hero_new-arrivals button i{
+    padding-left: 16px;
+}
+
+.hero-img{
+    width: calc(100% - 930px);
+    height: 100%;
+    background-color: #F7C59F;
+    float: left;
+    position: relative;
+}
+
+.circle{
+    width: 347px;
+    height: 347px;
+    clip-path: circle(50%);
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-img img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.highlights{
+    height: 1130px;
+    margin-top: 120px;
+    position: relative;
+}
+
+.text{
+    color: #374151;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.underline{
+    width: 88px;
+    border-bottom: 4px solid #374151;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.highlights_grid{
+    margin-top: 28px;
+}
+
+.highlights_shoes, 
+.highlights_items{
+    width: 466px;
+    height: 506px;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+    float: left;
+}
+
+.highlights_shoes h1,
+.highlights_items h1,
+.highlights_collections h1, 
+.highlights_new-arrivals h1{
+    font-size: 56px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.highlights_shoes h1 a, 
+.highlights_items h1 a,
+.highlights_collections h1 a, 
+.highlights_new-arrivals h1 a{
+    color: #FAFAFA;
+}
+
+.highlight_info{
+    height: 100px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+}
+
+.highlight_info .blur{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;    
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(3px);
+}
+
+.highlight_info .info{
+    margin: 10px 12px;
+    color: #FAFAFA;
+    position: relative;
+
+}
+
+.highlight_name{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.highlight_discount{
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+.highlight_discount-code{
+    margin-top: 14px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.highlights_collections, 
+.highlights_new-arrivals{
+    width: 762px;
+    height: 506px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    position: relative;
+}
+
+.popular{
+    height: 521px;
+    margin-top: 168px;
+    position: relative;
+}
+
+.popular_items{
+    width: 297px;
+    height: 423px;
+    margin-top: 56px;
+    margin-left: 20px;
+    float: left;
+}
+
+.popular_img{
+    width: 100%;
+    height: 343px;
+}
+
+.popular_info{
+    
+}
+
+.popular_name{
+    font-size: 14px;
+    line-height: 22px;
+    color: #374151;
+    word-wrap: break-word;
+}
+
+.buy{
+    margin-top: 16px;
+}
+
+.popular_price{
+    color: #374151;
+    font-weight: bold;
+    float: left;
+}  
+
+#cost{
+    color: #9CA3AF;
+    text-decoration: line-through;
+}
+
+.add{
+    color: #374151;
+    font-weight: bold;
+    float: right;
+}
+
+.brands{
+    margin-top: 140px;
+    position: relative;
+}
+
+.brands-logo{
+    margin-top: 65px;
+}
+
+.brands-logo ul{
+ text-align: center;
+}
+
+.brands-logo ul li{
+    margin-left: 29px;
+    margin-right: 29px;
+    display: inline;
+}
+
+.summer-collections{
+    background-image: url(/asset/img/image\ 6.png);
+    width: 1264px;
+    height: 515px;
+    margin: 88px;
+
+}
+
+.summer{
+    padding-top: 194px;
+    padding-left: 48px;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #0D3F64;
+}
+
+.collections{
+    color: #DE4F46;
+}
+
+.shop{
+    margin-top: 32px;
+    margin-left: 48px;
+    padding: 12px 16px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #EB5757;
+}
+
+.fa-arrow-right-long{
+    color: #EB5757;
+}
+
+#times{
+    margin-top: 120px;
+    margin-left: 48px;
+    display: flex;
+}
+
+#times div{
+    margin: 0 5px;
+}
+
+#times div span{
+    height: 27px;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#FFFFFF;
+}
+
+#times div span:nth-child(2){
+    font-weight: normal;
+    font-size: 12px;
+}
+
+footer{
+    height: 450px;
+    background-color: #F9FAFB;
+    padding: 62px 0;
+}
+
+.footer-left{
+    float: left;
+    width: 700px;
+}
+.footer-title{
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.company-info,
+.help{
+    padding-right: 88px;
+    float: left;
+    height: 207px;
+}
+
+.customer-care{
+    height: 207px;
+}
+
+.company-info a,
+.help a,
+.customer-care a{
+    line-height: 20px;
+    display: flex;
+}
+
+.copyright{
+    margin-top: 62px;
+    color: #6B7280;
+}
+
+.copyright p:nth-child(2){
+    padding-top: 20px;
+}
+
+.copyright p a{
+    padding-right: 20px;
+    text-decoration: underline;
+}
+
+
+.footer-right{
+width: 554px;
+float: left;
+}
+
+.footer-right i{
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+.socials{
+    margin-right: 255px;
+    float: left;
+}
+
+.socials-icon li{
+    display: inline;
+}
+
+.platforms li{
+    display: inline;    
+   
+}
+
+.signup input{
+    width: 412px;
+    padding: 16px;
+    border: 1px solid;
+}
+
+.subcribe{
+    padding: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #1F2937;
+    color: #FFFFFF;
+}
+
+.signup p{
+    margin-top: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+    color: #6B7280;
+}
+
+.signup p a{
+    color: #0F4FCE;
+    text-decoration: underline;
+}
+
+.pay{
+    padding-bottom: 62px;
+}
+.pay img{
+    width: 50px;
+    height: 32px;
+}    
